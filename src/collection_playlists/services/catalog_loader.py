@@ -7,7 +7,11 @@ from typing import Any, Dict, List, Tuple
 import numpy as np
 import streamlit as st
 
-from config.paths import default_clap_checkpoint, default_descriptor_and_label_paths
+from collection_playlists.config.runtime import (
+    runtime_clap_checkpoint,
+    runtime_descriptors_path,
+    runtime_labels_path,
+)
 
 
 @st.cache_data(show_spinner=False)
@@ -33,7 +37,7 @@ def load_discogs400_labels(labels_json_path: str) -> List[str]:
     return [str(x) for x in classes]
 
 
-@st.cache_data(show_spinner="Loading catalog…")
+@st.cache_data(show_spinner=False)
 def load_catalog_bundle(
     descriptors_path: str,
     labels_json_path: str,
@@ -86,12 +90,9 @@ def load_catalog_bundle(
 
 
 def init_session_defaults() -> None:
-    d, lab = default_descriptor_and_label_paths()
-    if "cfg_descriptors_path" not in st.session_state:
-        st.session_state.cfg_descriptors_path = d
-    if "cfg_labels_path" not in st.session_state:
-        st.session_state.cfg_labels_path = lab
-    if "cfg_clap_ckpt" not in st.session_state:
-        st.session_state.cfg_clap_ckpt = str(default_clap_checkpoint())
+    """Sync catalog paths from the environment each run (no in-app path editor)."""
+    st.session_state.cfg_descriptors_path = runtime_descriptors_path()
+    st.session_state.cfg_labels_path = runtime_labels_path()
+    st.session_state.cfg_clap_ckpt = runtime_clap_checkpoint()
     if "active_view" not in st.session_state:
         st.session_state.active_view = "overview"

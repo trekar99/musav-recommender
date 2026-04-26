@@ -5,10 +5,10 @@ from pathlib import Path
 import numpy as np
 import streamlit as st
 
-from config.paths import default_clap_checkpoint
+from collection_playlists.config.paths import default_clap_checkpoint
 
 
-@st.cache_resource(show_spinner="Loading CLAP (text encoder)…")
+@st.cache_resource(show_spinner=False)
 def get_clap_module(clap_ckpt_path: str):
     import laion_clap  # type: ignore
 
@@ -16,7 +16,8 @@ def get_clap_module(clap_ckpt_path: str):
     if not ckpt.is_file():
         raise FileNotFoundError(
             f"CLAP checkpoint not found: {ckpt}\n"
-            "Point to a valid .pt file under **Data sources** in the app, or download weights separately."
+            "Download the `.pt` once (see `model_conf.sh` / README), keep it on disk, and set "
+            "`COLLECTION_PLAYLISTS_CLAP_CKPT` or use `models/music_speech_epoch_15_esc_89.25.pt`."
         )
 
     model = laion_clap.CLAP_Module(enable_fusion=False, amodel="HTSAT-base")

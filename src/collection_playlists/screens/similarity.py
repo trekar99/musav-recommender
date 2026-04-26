@@ -3,14 +3,15 @@ from __future__ import annotations
 import numpy as np
 import streamlit as st
 
-from domain.similarity import top_k_indices
-from services.catalog_loader import load_catalog_bundle
-from ui.audio_player import render_track_player
+from collection_playlists.domain.similarity import top_k_indices
+from collection_playlists.services.catalog_loader import load_catalog_bundle
+from collection_playlists.ui.playlist_row import format_track_subtitle, render_playlist_track_row
+from collection_playlists.ui.audio_player import render_track_player
 
 
 def render_similarity_screen() -> None:
-    st.header("Track similarity")
-    st.caption("Query by track ID (`relative_path`). Compare Effnet vs CLAP cosine neighbours.")
+    st.markdown("### Similarity")
+    st.caption("Pick a query track (`relative_path`), then choose which embedding defines “nearby”.")
 
     descriptors_path = st.session_state.cfg_descriptors_path
     labels_path = st.session_state.cfg_labels_path
@@ -25,7 +26,7 @@ def render_similarity_screen() -> None:
     id_to_idx = {rid: i for i, rid in enumerate(ids)}
 
     with st.container(border=True):
-        filter_q = st.text_input("Filter track IDs", placeholder="Substring of relative_path…")
+        filter_q = st.text_input("Filter IDs", placeholder="substring of relative_path…")
         opts = [rid for rid in ids if filter_q.strip().lower() in rid.lower()]
         if not opts:
             st.warning("No track IDs match the filter.")
@@ -42,25 +43,26 @@ def render_similarity_screen() -> None:
     eff_hits = top_k_indices(eff_scores, k=11, exclude=[qidx])[:10]
     clap_hits = top_k_indices(clap_scores, k=11, exclude=[qidx])[:10]
 
-    st.subheader("Query")
+    st.caption("Now playing")
     st.code(query_id, language=None)
-    render_track_player(tracks[qidx], caption="Query track")
+    render_track_player(tracks[qidx], caption="Query")
 
     st.divider()
-    left, right = st.columns(2, gap="large")
+    mode = st.radio(
+        "Neighbour list",
+        options=["effnet", "clap"],
+        format_func=lambda x: "Effnet" if x == "effnet" else "CLAP",
+        horizontal=True,
+        key="similarity_backend",
+    )
 
-    with left:
-        st.markdown("#### Effnet–Discogs (1280-d)")
-        for rank, (j, score) in enumerate(eff_hits, start=1):
-            tr = tracks[j]
-            with st.container(border=True):
-                st.markdown(f"**{rank}.** `{tr.get('relative_path','')}` · cos **{score:.4f}**")
-                render_track_player(tr)
+    hits = eff_hits if mode == "effnet" else clap_hits
 
-    with right:
-        st.markdown("#### CLAP audio (512-d)")
-        for rank, (j, score) in enumerate(clap_hits, start=1):
-            tr = tracks[j]
-            with st.container(border=True):
-                st.markdown(f"**{rank}.** `{tr.get('relative_path','')}` · cos **{score:.4f}**")
-                render_track_player(tr)
+    for rank, (j, score) in enumerate(hits, start=1):
+        tr = tracks[j]
+        render_playlist_track_row(
+            rank=rank,
+            track=tr,
+            subtitle=format_track_subtitle(tr),
+            match_label=f"similarity {score:.3f}",
+        )

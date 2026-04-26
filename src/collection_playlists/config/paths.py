@@ -2,8 +2,7 @@ from pathlib import Path
 
 
 def project_root() -> Path:
-    """Root of this repository (parent of ``src/catalog_lab``)."""
-    # catalog_lab/config/paths.py → catalog_lab → src → repo
+    """Repository root (``collection_playlists/config`` → … → repo)."""
     return Path(__file__).resolve().parent.parent.parent.parent
 
 

@@ -1,401 +1,401 @@
 style_id	style_label	broad_genre	mean_activation	top1_count	tracks_above_threshold
-308	Rock---Alternative Rock	Rock	0.03738439616601252	82	264
-364	Rock---Pop Rock	Rock	0.032564931093046	56	201
+308	Rock---Alternative Rock	Rock	0.03738439616745386	82	264
+364	Rock---Pop Rock	Rock	0.03256493109354492	56	201
 91	Electronic---House	Electronic	0.035236342423411615	61	192
-345	Rock---Indie Rock	Rock	0.027052869136480556	47	172
-146	Folk, World, & Country---Folk	Folk, World, & Country	0.02813055419856029	77	162
-202	Hip Hop---Trap	Hip Hop	0.03147127421408868	54	159
-378	Rock---Punk	Rock	0.029062209331588627	76	153
+345	Rock---Indie Rock	Rock	0.027052869137949607	47	172
+146	Folk, World, & Country---Folk	Folk, World, & Country	0.028130554199973904	77	162
+202	Hip Hop---Trap	Hip Hop	0.031471274215065737	54	159
+378	Rock---Punk	Rock	0.02906220933208755	76	153
 183	Hip Hop---Cloud Rap	Hip Hop	0.02730795201065161	52	124
-344	Rock---Heavy Metal	Rock	0.019963105277624658	29	120
-35	Electronic---Ambient	Electronic	0.024400156826189852	57	118
-125	Electronic---Synth-pop	Electronic	0.022478837254762924	33	115
-192	Hip Hop---Hardcore Hip-Hop	Hip Hop	0.015252514319737934	19	113
-342	Rock---Hard Rock	Rock	0.01980527106602217	30	111
-278	Pop---Ballad	Pop	0.02280853174065472	47	105
-55	Electronic---Downtempo	Electronic	0.019986702846623423	25	96
-190	Hip Hop---Gangsta	Hip Hop	0.017864896816383247	40	95
-293	Pop---Vocal	Pop	0.0196678273189787	13	83
+344	Rock---Heavy Metal	Rock	0.019963105274187633	29	120
+35	Electronic---Ambient	Electronic	0.024400156825247443	57	118
+125	Electronic---Synth-pop	Electronic	0.022478837256814054	33	115
+192	Hip Hop---Hardcore Hip-Hop	Hip Hop	0.015252514319252869	19	113
+342	Rock---Hard Rock	Rock	0.01980527106546781	30	111
+278	Pop---Ballad	Pop	0.022808531738562017	47	105
+55	Electronic---Downtempo	Electronic	0.019986702847565832	25	96
+190	Hip Hop---Gangsta	Hip Hop	0.017864896817852298	40	95
+293	Pop---Vocal	Pop	0.0196678273197548	13	83
 50	Electronic---Deep House	Electronic	0.015375266425805056	12	82
 63	Electronic---Electro	Electronic	0.018409602441294894	9	81
-398	Stage & Screen---Soundtrack	Stage & Screen	0.018216316134203357	20	79
 180	Hip Hop---Boom Bap	Hip Hop	0.01230066011513583	17	79
-70	Electronic---Experimental	Electronic	0.01709035152392252	15	78
-191	Hip Hop---Grime	Hip Hop	0.011580408136577451	19	70
+398	Stage & Screen---Soundtrack	Stage & Screen	0.01821631613375987	20	79
+70	Electronic---Experimental	Electronic	0.01709035152796934	15	78
+191	Hip Hop---Grime	Hip Hop	0.011580408137062516	19	70
 184	Hip Hop---Conscious	Hip Hop	0.012009833442269802	13	70
-193	Hip Hop---Horrorcore	Hip Hop	0.010402143773191402	8	70
-129	Electronic---Techno	Electronic	0.01382246280798207	18	68
-256	Latin---Reggaeton	Latin	0.015032401845107958	37	68
-343	Rock---Hardcore	Rock	0.012395493150837406	8	67
+193	Hip Hop---Horrorcore	Hip Hop	0.010402143774663917	8	70
+256	Latin---Reggaeton	Latin	0.015032401845106767	37	68
+129	Electronic---Techno	Electronic	0.013822462809409543	18	68
+343	Rock---Hardcore	Rock	0.012395493150352342	8	67
 176	Funk / Soul---Soul	Funk / Soul	0.013698795896634947	23	64
-197	Hip Hop---Pop Rap	Hip Hop	0.01305734893935673	2	62
-286	Pop---K-pop	Pop	0.01301101366064214	35	58
+197	Hip Hop---Pop Rap	Hip Hop	0.013057348938379672	2	62
+286	Pop---K-pop	Pop	0.01301101365971359	35	58
 47	Electronic---Dance-pop	Electronic	0.011678728430297141	2	56
-21	Classical---Contemporary	Classical	0.007561898659334723	12	56
-64	Electronic---Electro House	Electronic	0.009321850035476878	3	51
+21	Classical---Contemporary	Classical	0.0075618986583645955	12	56
+64	Electronic---Electro House	Electronic	0.00932185003449289	3	51
 195	Hip Hop---Jazzy Hip-Hop	Hip Hop	0.00865827885395727	3	50
-134	Electronic---Tropical House	Electronic	0.009747798632181087	16	47
-194	Hip Hop---Instrumental	Hip Hop	0.008346219446474264	12	47
-316	Rock---Brit Pop	Rock	0.010042218154596652	3	45
-375	Rock---Psychedelic Rock	Rock	0.011356292718288483	12	45
-309	Rock---Arena Rock	Rock	0.008968159467716428	0	42
-285	Pop---J-pop	Pop	0.01192160460642957	21	42
-181	Hip Hop---Bounce	Hip Hop	0.007435076186497985	4	41
-370	Rock---Power Metal	Rock	0.00843340496416037	11	41
-305	Rock---AOR	Rock	0.008987724474803664	6	41
-328	Rock---Emo	Rock	0.008015438082417038	1	40
+134	Electronic---Tropical House	Electronic	0.009747798632181302	16	47
+194	Hip Hop---Instrumental	Hip Hop	0.008346219446973186	12	47
+316	Rock---Brit Pop	Rock	0.010042218153134531	3	45
+375	Rock---Psychedelic Rock	Rock	0.011356292716812502	12	45
+285	Pop---J-pop	Pop	0.011921604606436499	21	42
+309	Rock---Arena Rock	Rock	0.008968159467245222	0	42
+305	Rock---AOR	Rock	0.008987724475288728	6	41
+370	Rock---Power Metal	Rock	0.008433404962202792	11	41
+181	Hip Hop---Bounce	Hip Hop	0.007435076185524392	4	41
+321	Rock---Death Metal	Rock	0.008986653953117084	16	40
 379	Rock---Rock & Roll	Rock	0.009406382348951813	3	40
-321	Rock---Death Metal	Rock	0.008986653954097605	16	40
-20	Classical---Classical	Classical	0.00594669261067463	2	40
-66	Electronic---Euro House	Electronic	0.008876786881039501	11	39
-137	Folk, World, & Country---African	Folk, World, & Country	0.008319456060753388	17	39
-117	Electronic---Progressive House	Electronic	0.008248548800922274	9	38
+328	Rock---Emo	Rock	0.008015438082415305	1	40
+20	Classical---Classical	Classical	0.0059466926116690105	2	40
+66	Electronic---Euro House	Electronic	0.008876786880060713	11	39
+137	Folk, World, & Country---African	Folk, World, & Country	0.00831945605928607	17	39
 130	Electronic---Trance	Electronic	0.00914601534592592	8	38
-26	Classical---Neo-Romantic	Classical	0.005551870522067761	11	38
-45	Electronic---Chillwave	Electronic	0.008941255573289179	9	37
+117	Electronic---Progressive House	Electronic	0.008248548802890247	9	38
+26	Classical---Neo-Romantic	Classical	0.00555187052059871	11	38
+201	Hip Hop---Thug Rap	Hip Hop	0.007247674123908655	0	37
 381	Rock---Shoegaze	Rock	0.006948688784419749	4	37
-327	Rock---Dream Pop	Rock	0.007751783061780372	12	37
-201	Hip Hop---Thug Rap	Hip Hop	0.007247674122439604	0	37
+327	Rock---Dream Pop	Rock	0.007751783061779507	12	37
+45	Electronic---Chillwave	Electronic	0.008941255573289612	9	37
 332	Rock---Folk Rock	Rock	0.012812199852615952	6	36
-353	Rock---Metalcore	Rock	0.006683230103047678	10	36
-169	Funk / Soul---Funk	Funk / Soul	0.010151975405818671	10	36
-371	Rock---Power Pop	Rock	0.0076080407514778495	5	36
-185	Hip Hop---Crunk	Hip Hop	0.006638628298792793	6	36
+185	Hip Hop---Crunk	Hip Hop	0.006638628298304265	6	36
+169	Funk / Soul---Funk	Funk / Soul	0.010151975406262158	10	36
 60	Electronic---Dubstep	Electronic	0.008243995816634975	13	36
-24	Classical---Modern	Classical	0.0055513400592934374	5	35
-352	Rock---Melodic Hardcore	Rock	0.006455100261293515	2	34
-153	Folk, World, & Country---Laïkó	Folk, World, & Country	0.007240042793635756	13	34
-299	Reggae---Reggae	Reggae	0.007682131219123094	9	34
-199	Hip Hop---RnB/Swing	Hip Hop	0.010766111390281208	6	34
-315	Rock---Blues Rock	Rock	0.00833954224504494	12	33
-114	Electronic---Nu-Disco	Electronic	0.006445451288817846	6	32
+353	Rock---Metalcore	Rock	0.006683230103047678	10	36
+371	Rock---Power Pop	Rock	0.0076080407514778495	5	36
+24	Classical---Modern	Classical	0.005551340060755558	5	35
+299	Reggae---Reggae	Reggae	0.007682131220101017	9	34
+199	Hip Hop---RnB/Swing	Hip Hop	0.010766111389792679	6	34
+153	Folk, World, & Country---Laïkó	Folk, World, & Country	0.007240042794614546	13	34
+352	Rock---Melodic Hardcore	Rock	0.006455100261286585	2	34
+315	Rock---Blues Rock	Rock	0.008339542244552946	12	33
+114	Electronic---Nu-Disco	Electronic	0.006445451288819579	6	32
 295	Reggae---Dancehall	Reggae	0.00575329969753104	5	32
-22	Classical---Impressionist	Classical	0.004505651336810829	4	31
-30	Classical---Romantic	Classical	0.005348866207017357	7	31
-127	Electronic---Tech House	Electronic	0.00599866614945443	3	31
-397	Stage & Screen---Score	Stage & Screen	0.005745203389384258	4	30
-143	Folk, World, & Country---Country	Folk, World, & Country	0.006744290782617457	9	30
-126	Electronic---Synthwave	Electronic	0.007033076818941799	9	29
-363	Rock---Pop Punk	Rock	0.007539109937258416	3	29
-166	Funk / Soul---Contemporary R&B	Funk / Soul	0.00798516204787041	1	29
-314	Rock---Black Metal	Rock	0.007517262948831546	7	29
-198	Hip Hop---Ragga HipHop	Hip Hop	0.006839342093131712	3	29
+127	Electronic---Tech House	Electronic	0.005998666148962437	3	31
+22	Classical---Impressionist	Classical	0.004505651336321434	4	31
+30	Classical---Romantic	Classical	0.005348866208950683	7	31
+143	Folk, World, & Country---Country	Folk, World, & Country	0.006744290783726174	9	30
+397	Stage & Screen---Score	Stage & Screen	0.005745203389869322	4	30
+126	Electronic---Synthwave	Electronic	0.007033076818943531	9	29
 52	Electronic---Disco	Electronic	0.007548781969367785	4	29
-18	Classical---Baroque	Classical	0.006082709072651215	12	28
-392	Rock---Thrash	Rock	0.0047188761836871465	2	28
-356	Rock---New Wave	Rock	0.006710626634238531	2	28
-317	Rock---Classic Rock	Rock	0.007765444114298358	0	27
-339	Rock---Gothic Metal	Rock	0.005618543517334521	4	27
-128	Electronic---Tech Trance	Electronic	0.005271955806144351	8	27
-142	Folk, World, & Country---Celtic	Folk, World, & Country	0.007374006141013994	9	27
+363	Rock---Pop Punk	Rock	0.007539109936286556	3	29
+314	Rock---Black Metal	Rock	0.00751726294883068	7	29
+198	Hip Hop---Ragga HipHop	Hip Hop	0.006839342093131712	3	29
+166	Funk / Soul---Contemporary R&B	Funk / Soul	0.00798516204786911	1	29
+18	Classical---Baroque	Classical	0.006082709072678933	12	28
+356	Rock---New Wave	Rock	0.0067106266342419965	2	28
+392	Rock---Thrash	Rock	0.004718876184667669	2	28
+128	Electronic---Tech Trance	Electronic	0.005271955806146083	8	27
 25	Classical---Neo-Classical	Classical	0.006307705572656637	7	27
+142	Folk, World, & Country---Celtic	Folk, World, & Country	0.007374006139544943	9	27
+339	Rock---Gothic Metal	Rock	0.0056185435173353865	4	27
+317	Rock---Classic Rock	Rock	0.007765444115282344	0	27
+387	Rock---Speed Metal	Rock	0.004840556855001735	2	26
 360	Rock---Nu Metal	Rock	0.006436920585235896	6	26
-79	Electronic---Grime	Electronic	0.00624492494850733	3	26
+79	Electronic---Grime	Electronic	0.0062449249480222655	3	26
+203	Hip Hop---Trip Hop	Hip Hop	0.005802110881526785	1	26
 241	Latin---Cumbia	Latin	0.0063955459795009715	9	26
-387	Rock---Speed Metal	Rock	0.004840556855000003	2	26
 390	Rock---Symphonic Rock	Rock	0.008217639704000522	3	26
-203	Hip Hop---Trip Hop	Hip Hop	0.005802110882507307	1	26
-279	Pop---Bollywood	Pop	0.005472216373446714	12	25
 110	Electronic---New Age	Electronic	0.006589595957514481	3	25
-298	Reggae---Ragga	Reggae	0.005301769477007025	4	24
+279	Pop---Bollywood	Pop	0.005472216374427236	12	25
+326	Rock---Doom Metal	Rock	0.005395408068181703	6	24
 150	Folk, World, & Country---Hindustani	Folk, World, & Country	0.005210556105880125	1	24
 133	Electronic---Trip Hop	Electronic	0.006098375187342241	2	24
 211	Jazz---Contemporary Jazz	Jazz	0.005614875858168396	13	24
-326	Rock---Doom Metal	Rock	0.005395408066712653	6	24
-171	Funk / Soul---Neo Soul	Funk / Soul	0.00702201082947265	11	23
-163	Folk, World, & Country---Éntekhno	Folk, World, & Country	0.006530391874344505	9	23
-300	Reggae---Reggae-Pop	Reggae	0.005801283182057412	1	23
-351	Rock---Melodic Death Metal	Rock	0.004033237013435073	3	23
-361	Rock---Oi	Rock	0.005604532885872109	2	23
-152	Folk, World, & Country---Indian Classical	Folk, World, & Country	0.00508113882292223	10	22
-252	Latin---Nueva Cancion	Latin	0.004868091442604474	6	22
-281	Pop---Chanson	Pop	0.007252504577957909	4	22
-189	Hip Hop---G-Funk	Hip Hop	0.0055775232025098275	4	22
-336	Rock---Glam	Rock	0.005781281989104908	0	21
+298	Reggae---Ragga	Reggae	0.0053017694770055085	4	24
+351	Rock---Melodic Death Metal	Rock	0.004033237012946544	3	23
+361	Rock---Oi	Rock	0.005604532885873842	2	23
+300	Reggae---Reggae-Pop	Reggae	0.005801283182056654	1	23
+163	Folk, World, & Country---Éntekhno	Folk, World, & Country	0.0065303918743583635	9	23
+171	Funk / Soul---Neo Soul	Funk / Soul	0.007022010829476115	11	23
+152	Folk, World, & Country---Indian Classical	Folk, World, & Country	0.005081138822433702	10	22
+252	Latin---Nueva Cancion	Latin	0.00486809144260783	6	22
+281	Pop---Chanson	Pop	0.007252504576017654	4	22
+189	Hip Hop---G-Funk	Hip Hop	0.005577523202021299	4	22
 354	Rock---Mod	Rock	0.004125970225774651	1	21
-367	Rock---Post-Hardcore	Rock	0.005656178270882384	1	21
+336	Rock---Glam	Rock	0.005781281989101443	0	21
 335	Rock---Garage Rock	Rock	0.005356877291035759	2	21
+36	Electronic---Bassline	Electronic	0.005217649984968294	4	21
+367	Rock---Post-Hardcore	Rock	0.005656178270882384	1	21
 251	Latin---Norteño	Latin	0.0037790655770050512	10	21
-36	Electronic---Bassline	Electronic	0.005217649985945351	4	21
-394	Rock---Viking Metal	Rock	0.004298041387266053	0	20
 329	Rock---Ethereal	Rock	0.006402882714122961	3	20
-27	Classical---Opera	Classical	0.003648267542095517	4	20
-175	Funk / Soul---Rhythm & Blues	Funk / Soul	0.005944500010659169	2	20
-53	Electronic---Disco Polo	Electronic	0.004279032076175516	11	20
-214	Jazz---Easy Listening	Jazz	0.006395518119253853	11	19
-284	Pop---Indie Pop	Pop	0.008385681655075592	3	19
-56	Electronic---Drone	Electronic	0.0034874010062343206	1	19
-57	Electronic---Drum n Bass	Electronic	0.009214385793977129	12	19
+53	Electronic---Disco Polo	Electronic	0.004279032074708197	11	20
+27	Classical---Opera	Classical	0.0036482675396771274	4	20
+394	Rock---Viking Metal	Rock	0.004298041387266053	0	20
+175	Funk / Soul---Rhythm & Blues	Funk / Soul	0.005944500010663501	2	20
+57	Electronic---Drum n Bass	Electronic	0.00921438579349553	12	19
+56	Electronic---Drone	Electronic	0.003487401004796453	1	19
 69	Electronic---Eurodance	Electronic	0.004638784921988748	0	19
-283	Pop---Europop	Pop	0.007621123366684066	1	18
-145	Folk, World, & Country---Flamenco	Folk, World, & Country	0.005244270120294789	12	18
+284	Pop---Indie Pop	Pop	0.008385681655075592	3	19
+214	Jazz---Easy Listening	Jazz	0.006395518118699494	11	19
 331	Rock---Folk Metal	Rock	0.004932273324752161	5	18
-200	Hip Hop---Screw	Hip Hop	0.004743244420163365	2	18
-51	Electronic---Deep Techno	Electronic	0.002851146180898266	0	18
-382	Rock---Ska	Rock	0.005275372609942305	3	18
-94	Electronic---Industrial	Electronic	0.005930842859843461	7	18
-384	Rock---Soft Rock	Rock	0.008187039608229786	1	18
+283	Pop---Europop	Pop	0.007621123366684066	1	18
 118	Electronic---Progressive Trance	Electronic	0.0037530229773526766	0	18
-10	Blues---Rhythm & Blues	Blues	0.0037167959385374497	5	17
-136	Electronic---Vaporwave	Electronic	0.004899586174824914	3	17
-322	Rock---Deathcore	Rock	0.00352120455378132	3	17
+382	Rock---Ska	Rock	0.005275372609937108	3	18
+145	Folk, World, & Country---Flamenco	Folk, World, & Country	0.005244270120294789	12	18
+51	Electronic---Deep Techno	Electronic	0.002851146180898266	0	18
+94	Electronic---Industrial	Electronic	0.0059308428570716675	7	18
+200	Hip Hop---Screw	Hip Hop	0.004743244421140422	2	18
+384	Rock---Soft Rock	Rock	0.008187039608236715	1	18
+136	Electronic---Vaporwave	Electronic	0.004899586173321216	3	17
+302	Reggae---Roots Reggae	Reggae	0.0033201401961053647	3	17
+322	Rock---Deathcore	Rock	0.0035212045537800205	3	17
 81	Electronic---Hands Up	Electronic	0.004378269790472385	4	17
-302	Reggae---Roots Reggae	Reggae	0.0033201401961042818	3	17
-67	Electronic---Euro-Disco	Electronic	0.003955711897915658	1	17
-376	Rock---Psychobilly	Rock	0.004236804116429864	6	16
+10	Blues---Rhythm & Blues	Blues	0.003716795938537883	5	17
+67	Electronic---Euro-Disco	Electronic	0.003955711897921722	1	17
+376	Rock---Psychobilly	Rock	0.004236804116431597	6	16
 369	Rock---Post-Punk	Rock	0.005193156471205436	0	16
-159	Folk, World, & Country---Soukous	Folk, World, & Country	0.0035094802912326514	6	16
-19	Classical---Choral	Classical	0.004436469693043438	11	16
-208	Jazz---Big Band	Jazz	0.0030952096423083734	3	16
+19	Classical---Choral	Classical	0.00443646969304517	11	16
 325	Rock---Doo Wop	Rock	0.002963247213593905	7	16
-162	Folk, World, & Country---Zouk	Folk, World, & Country	0.0032283859847043904	5	15
-46	Electronic---Chiptune	Electronic	0.004671582794973229	8	15
-170	Funk / Soul---Gospel	Funk / Soul	0.004778407725790965	7	15
-303	Reggae---Ska	Reggae	0.004049990414117537	5	15
-383	Rock---Sludge Metal	Rock	0.0032819618762999483	4	15
-28	Classical---Post-Modern	Classical	0.0034774715313141092	2	15
+159	Folk, World, & Country---Soukous	Folk, World, & Country	0.0035094802912339507	6	16
+208	Jazz---Big Band	Jazz	0.0030952096428003666	3	16
+46	Electronic---Chiptune	Electronic	0.004671582794980159	8	15
+138	Folk, World, & Country---Bluegrass	Folk, World, & Country	0.005379830878339169	11	15
+170	Funk / Soul---Gospel	Funk / Soul	0.004778407725794429	7	15
+303	Reggae---Ska	Reggae	0.004049990414116671	5	15
+374	Rock---Progressive Metal	Rock	0.0049844515044871925	1	15
 258	Latin---Salsa	Latin	0.004941315998027634	9	15
-374	Rock---Progressive Metal	Rock	0.004984451502038486	1	15
-138	Folk, World, & Country---Bluegrass	Folk, World, & Country	0.005379830878340902	11	15
+28	Classical---Post-Modern	Classical	0.0034774715313141092	2	15
+383	Rock---Sludge Metal	Rock	0.0032819618762982158	4	15
+162	Folk, World, & Country---Zouk	Folk, World, & Country	0.0032283859847043904	5	15
+229	Jazz---Swing	Jazz	0.00310367282900837	3	14
+86	Electronic---Hardcore	Electronic	0.005163042820139371	6	14
 48	Electronic---Dark Ambient	Electronic	0.003038502997961101	0	14
-265	Non-Music---Audiobook	Non-Music	0.002372436239617266	7	14
-167	Funk / Soul---Disco	Funk / Soul	0.004905852395076571	5	14
-291	Pop---Parody	Pop	0.004944425797345306	6	14
+119	Electronic---Psy-Trance	Electronic	0.003734167696967217	6	14
+167	Funk / Soul---Disco	Funk / Soul	0.0049058523950904305	5	14
+341	Rock---Grunge	Rock	0.005121560602227267	0	14
+220	Jazz---Jazz-Funk	Jazz	0.0036580824451344896	2	14
+385	Rock---Southern Rock	Rock	0.005426480587121944	1	14
+265	Non-Music---Audiobook	Non-Music	0.0023724362538088484	7	14
+291	Pop---Parody	Pop	0.004944425795848537	6	14
 377	Rock---Pub Rock	Rock	0.004179215510871269	2	14
-341	Rock---Grunge	Rock	0.005121560602230732	0	14
-385	Rock---Southern Rock	Rock	0.005426480586633415	1	14
-229	Jazz---Swing	Jazz	0.00310367282900144	3	14
-220	Jazz---Jazz-Funk	Jazz	0.0036580824461046172	2	14
-86	Electronic---Hardcore	Electronic	0.005163042821126822	6	14
-296	Reggae---Dub	Reggae	0.0038240261276325095	3	14
-119	Electronic---Psy-Trance	Electronic	0.0037341676969689496	6	14
-292	Pop---Schlager	Pop	0.0031564870729355113	6	13
-85	Electronic---Hard Trance	Electronic	0.0038516337340522523	1	13
-49	Electronic---Darkwave	Electronic	0.00453853537138928	2	13
-318	Rock---Coldwave	Rock	0.003227883042284861	4	13
-102	Electronic---Latin	Electronic	0.005006968673972155	0	13
-255	Latin---Ranchera	Latin	0.00305093899673479	2	13
-148	Folk, World, & Country---Highlife	Folk, World, & Country	0.0019366889373846497	0	13
-276	Non-Music---Religious	Non-Music	0.004360682834754844	5	13
-307	Rock---Acoustic	Rock	0.007072392371022867	2	13
-106	Electronic---Minimal Techno	Electronic	0.0033445539033555623	3	13
-224	Jazz---Post Bop	Jazz	0.0022357789581830844	1	13
+296	Reggae---Dub	Reggae	0.0038240261276312106	3	14
+102	Electronic---Latin	Electronic	0.005006968673973021	0	13
 97	Electronic---Italodance	Electronic	0.0033573174789171692	2	13
-297	Reggae---Lovers Rock	Reggae	0.002860652509343213	4	13
-247	Latin---MPB	Latin	0.0034888893405080525	6	12
-80	Electronic---Halftime	Electronic	0.0036310316152609614	1	12
-388	Rock---Stoner Rock	Rock	0.003648206532734154	3	12
+49	Electronic---Darkwave	Electronic	0.004538535372328225	2	13
+85	Electronic---Hard Trance	Electronic	0.0038516337340522523	1	13
+318	Rock---Coldwave	Rock	0.0032278830422850773	4	13
+106	Electronic---Minimal Techno	Electronic	0.0033445539033549127	3	13
+307	Rock---Acoustic	Rock	0.007072392371022867	2	13
+255	Latin---Ranchera	Latin	0.003050938996734574	2	13
+292	Pop---Schlager	Pop	0.003156487072937244	6	13
+276	Non-Music---Religious	Non-Music	0.004360682831428691	5	13
+148	Folk, World, & Country---Highlife	Folk, World, & Country	0.0019366889373845415	0	13
+224	Jazz---Post Bop	Jazz	0.0022357789581830844	1	13
+297	Reggae---Lovers Rock	Reggae	0.0028606525093431857	4	13
+80	Electronic---Halftime	Electronic	0.0036310316152590124	1	12
+157	Folk, World, & Country---Raï	Folk, World, & Country	0.002387326890152916	4	12
+16	Children's---Nursery Rhymes	Children's	0.0032837769752291014	7	12
+29	Classical---Renaissance	Classical	0.0027527054923753348	5	12
+247	Latin---MPB	Latin	0.00348888934051195	6	12
 277	Non-Music---Spoken Word	Non-Music	0.0029479461656205363	5	12
 338	Rock---Goth Rock	Rock	0.005694214293692736	3	12
-157	Folk, World, & Country---Raï	Folk, World, & Country	0.0023873268901547567	4	12
-29	Classical---Renaissance	Classical	0.0027527054909340025	5	12
-147	Folk, World, & Country---Gospel	Folk, World, & Country	0.005522523087318782	2	12
-16	Children's---Nursery Rhymes	Children's	0.003283776974231256	7	12
-262	Latin---Tango	Latin	0.003407797899212735	6	11
+388	Rock---Stoner Rock	Rock	0.003648206532734154	3	12
+147	Folk, World, & Country---Gospel	Folk, World, & Country	0.005522523085835873	2	12
+132	Electronic---Tribal House	Electronic	0.003417407444200059	1	11
 350	Rock---Math Rock	Rock	0.0035663988427362524	1	11
-74	Electronic---Garage House	Electronic	0.0030535689721729003	0	11
-287	Pop---Kayōkyoku	Pop	0.0025260351180764664	1	11
-23	Classical---Medieval	Classical	0.002798656442118553	4	11
-78	Electronic---Goa Trance	Electronic	0.002253225723259299	2	11
-319	Rock---Country Rock	Rock	0.004492044521073987	2	11
-204	Hip Hop---Turntablism	Hip Hop	0.003273849532662054	1	11
-38	Electronic---Berlin-School	Electronic	0.002950173716647673	1	11
-132	Electronic---Tribal House	Electronic	0.0034174074441965943	1	11
 172	Funk / Soul---New Jack Swing	Funk / Soul	0.0027555212148953653	4	11
-105	Electronic---Minimal	Electronic	0.004030957572963235	0	11
-89	Electronic---Hip Hop	Electronic	0.0073007195740902526	2	11
-98	Electronic---Jazzdance	Electronic	0.003302590212640855	0	11
+105	Electronic---Minimal	Electronic	0.004030957572457383	0	11
 96	Electronic---Italo-Disco	Electronic	0.004016958593746992	4	11
+319	Rock---Country Rock	Rock	0.004492044521073987	2	11
+98	Electronic---Jazzdance	Electronic	0.003302590212640855	0	11
+38	Electronic---Berlin-School	Electronic	0.0029501737166546024	1	11
+23	Classical---Medieval	Classical	0.002798656442146271	4	11
+287	Pop---Kayōkyoku	Pop	0.0025260351180764664	1	11
+74	Electronic---Garage House	Electronic	0.0030535689721729003	0	11
+78	Electronic---Goa Trance	Electronic	0.0022532257232605983	2	11
+262	Latin---Tango	Latin	0.003407797899212735	6	11
+89	Electronic---Hip Hop	Electronic	0.0073007195740902526	2	11
 87	Electronic---Hardstyle	Electronic	0.003998459506520193	6	11
+204	Hip Hop---Turntablism	Hip Hop	0.003273849532662054	1	11
+275	Non-Music---Radioplay	Non-Music	0.0021095222675421386	2	10
+116	Electronic---Progressive Breaks	Electronic	0.002742968572635009	1	10
+334	Rock---Funk Metal	Rock	0.002877177931844404	1	10
 156	Folk, World, & Country---Polka	Folk, World, & Country	0.002825082334319155	6	10
-226	Jazz---Smooth Jazz	Jazz	0.004291756433533366	6	10
-12	Brass & Military---Brass Band	Brass & Military	0.002079766582364642	6	10
-151	Folk, World, & Country---Honky Tonk	Folk, World, & Country	0.0022328247017989284	0	10
-380	Rock---Rockabilly	Rock	0.0029049031679957565	2	10
-275	Non-Music---Radioplay	Non-Music	0.002109522266876908	2	10
-116	Electronic---Progressive Breaks	Electronic	0.0027429685726334933	1	10
-61	Electronic---Dungeon Synth	Electronic	0.0022131555558230266	2	10
-135	Electronic---UK Garage	Electronic	0.003627889834686822	5	10
+151	Folk, World, & Country---Honky Tonk	Folk, World, & Country	0.0022328247017988742	0	10
 348	Rock---Lo-Fi	Rock	0.0042501362442987425	2	10
-334	Rock---Funk Metal	Rock	0.0028771779308742764	1	10
+61	Electronic---Dungeon Synth	Electronic	0.0022131555558221605	2	10
+226	Jazz---Smooth Jazz	Jazz	0.00429175643214747	6	10
+135	Electronic---UK Garage	Electronic	0.0036278898347491873	5	10
+12	Brass & Military---Brass Band	Brass & Military	0.002079766582364642	6	10
+380	Rock---Rockabilly	Rock	0.0029049031679957565	2	10
+249	Latin---Mariachi	Latin	0.0031657529244389798	9	9
+62	Electronic---EBM	Electronic	0.0028553413980349942	1	9
+250	Latin---Merengue	Latin	0.0018068327064612209	2	9
+77	Electronic---Glitch	Electronic	0.003671444837158789	1	9
+213	Jazz---Dixieland	Jazz	0.0017231120857970589	1	9
+288	Pop---Light Music	Pop	0.0038494853158539907	2	9
+373	Rock---Prog Rock	Rock	0.008571493714014701	3	9
+13	Brass & Military---Marches	Brass & Military	0.0017758604239407703	3	9
+15	Children's---Educational	Children's	0.002127193938828683	3	9
 368	Rock---Post-Metal	Rock	0.0028526461237804142	2	9
-373	Rock---Prog Rock	Rock	0.008571493713016855	3	9
-355	Rock---Neofolk	Rock	0.004798963266196598	2	9
-249	Latin---Mariachi	Latin	0.0031657529244424444	9	9
-250	Latin---Merengue	Latin	0.001806832706460517	2	9
-236	Latin---Bossanova	Latin	0.002570351809142585	1	9
-391	Rock---Technical Death Metal	Rock	0.0027099358524246045	1	9
-288	Pop---Light Music	Pop	0.0038494853158535574	2	9
-62	Electronic---EBM	Electronic	0.002855341398021135	1	9
 366	Rock---Post Rock	Rock	0.00405737306239472	0	9
-212	Jazz---Cool Jazz	Jazz	0.0021215390404548526	0	9
-15	Children's---Educational	Children's	0.00212719393927217	3	9
-13	Brass & Military---Marches	Brass & Military	0.0017758604283756396	3	9
+355	Rock---Neofolk	Rock	0.004798963266196598	2	9
+391	Rock---Technical Death Metal	Rock	0.0027099358524280692	1	9
 223	Jazz---Modal	Jazz	0.0019837267770720286	2	9
-222	Jazz---Latin Jazz	Jazz	0.0031599346188718514	0	9
-213	Jazz---Dixieland	Jazz	0.0017231120867810454	1	9
-77	Electronic---Glitch	Electronic	0.0036714448386278393	1	9
-217	Jazz---Fusion	Jazz	0.004041948075988317	1	9
-140	Folk, World, & Country---Canzone Napoletana	Folk, World, & Country	0.0025953115403542625	1	8
-101	Electronic---Jungle	Electronic	0.0026099076695747627	0	8
-264	Latin---Vallenato	Latin	0.0022726896780974706	3	8
-207	Jazz---Avant-garde Jazz	Jazz	0.0025446478214630705	0	8
-266	Non-Music---Comedy	Non-Music	0.0021408319424651673	3	8
-158	Folk, World, & Country---Romani	Folk, World, & Country	0.0033930575398826604	4	8
-1	Blues---Chicago Blues	Blues	0.00170824925706601	2	8
-209	Jazz---Bop	Jazz	0.0015638582062553377	1	8
-68	Electronic---Eurobeat	Electronic	0.0025399468904112326	0	8
-71	Electronic---Freestyle	Electronic	0.0029860233289376484	4	8
-72	Electronic---Future Jazz	Electronic	0.0037924435903512574	0	8
-301	Reggae---Rocksteady	Reggae	0.0017496964916550177	1	8
+222	Jazz---Latin Jazz	Jazz	0.0031599346188683868	0	9
+217	Jazz---Fusion	Jazz	0.004041948076473381	1	9
+236	Latin---Bossanova	Latin	0.0025703518081724576	1	9
+212	Jazz---Cool Jazz	Jazz	0.002121539039484725	0	9
+301	Reggae---Rocksteady	Reggae	0.0017496964916549095	1	8
+209	Jazz---Bop	Jazz	0.0015638582072323949	1	8
+17	Children's---Story	Children's	0.0022904190665025775	3	8
 44	Electronic---Broken Beat	Electronic	0.0041850087593295554	1	8
+158	Folk, World, & Country---Romani	Folk, World, & Country	0.0033930575398826604	4	8
+101	Electronic---Jungle	Electronic	0.0026099076695782274	0	8
+140	Folk, World, & Country---Canzone Napoletana	Folk, World, & Country	0.0025953115403542625	1	8
+1	Blues---Chicago Blues	Blues	0.00170824925706601	2	8
+71	Electronic---Freestyle	Electronic	0.00298602332844912	4	8
+72	Electronic---Future Jazz	Electronic	0.0037924435903529895	0	8
 88	Electronic---Hi NRG	Electronic	0.0022960803912294627	0	8
-17	Children's---Story	Children's	0.0022904190675004234	3	8
-205	Jazz---Afro-Cuban Jazz	Jazz	0.0018264072671778026	0	7
-164	Funk / Soul---Afrobeat	Funk / Soul	0.0028055747759463145	0	7
-99	Electronic---Juke	Electronic	0.0023911383814326104	3	7
-124	Electronic---Speedcore	Electronic	0.00173884967126623	1	7
-259	Latin---Samba	Latin	0.002545446994480188	1	7
-313	Rock---Beat	Rock	0.002287244726544217	3	7
-257	Latin---Rumba	Latin	0.0029904207616471335	0	7
-58	Electronic---Dub	Electronic	0.003266190686941237	1	7
-59	Electronic---Dub Techno	Electronic	0.0017626902512237112	0	7
+264	Latin---Vallenato	Latin	0.0022726896780970647	3	8
+68	Electronic---Eurobeat	Electronic	0.0025399468904096084	0	8
+266	Non-Music---Comedy	Non-Music	0.0021408319362563504	3	8
+207	Jazz---Avant-garde Jazz	Jazz	0.0025446478214630705	0	8
+259	Latin---Samba	Latin	0.002545446994479755	1	7
+243	Latin---Forró	Latin	0.0015868066051397	4	7
 11	Blues---Texas Blues	Blues	0.0020437774861613955	1	7
-243	Latin---Forró	Latin	0.0015868066036723817	4	7
-219	Jazz---Hard Bop	Jazz	0.0013823339817165435	1	7
-294	Reggae---Calypso	Reggae	0.0013976443559994012	2	6
-396	Stage & Screen---Musical	Stage & Screen	0.0042608016505032995	2	6
-161	Folk, World, & Country---Volksmusik	Folk, World, & Country	0.0016713238031845566	0	6
-311	Rock---Atmospheric Black Metal	Rock	0.0023007527926660067	1	6
-123	Electronic---Speed Garage	Electronic	0.0017908382783350094	0	6
-395	Rock---Yé-Yé	Rock	0.0012541030827307907	2	6
-280	Pop---Bubblegum	Pop	0.004095276131233119	1	6
-4	Blues---Electric Blues	Blues	0.0020248324381194616	2	6
-304	Reggae---Soca	Reggae	0.001676731808546788	3	6
-112	Electronic---New Wave	Electronic	0.00362965291211589	0	6
-82	Electronic---Happy Hardcore	Electronic	0.002693256302098952	4	6
+257	Latin---Rumba	Latin	0.0029904207616471335	0	7
+313	Rock---Beat	Rock	0.0022872447265450836	3	7
+58	Electronic---Dub	Electronic	0.0032661906864527085	1	7
+59	Electronic---Dub Techno	Electronic	0.001762690251250563	0	7
+219	Jazz---Hard Bop	Jazz	0.0013823339817174095	1	7
+205	Jazz---Afro-Cuban Jazz	Jazz	0.0018264072671778026	0	7
+124	Electronic---Speedcore	Electronic	0.0017388496712679624	1	7
+164	Funk / Soul---Afrobeat	Funk / Soul	0.0028055747759465313	0	7
+99	Electronic---Juke	Electronic	0.0023911383824114	3	7
+82	Electronic---Happy Hardcore	Electronic	0.0026932563035731993	4	6
+263	Latin---Tejano	Latin	0.0012677738228618503	2	6
+73	Electronic---Gabber	Electronic	0.0019467756330527745	0	6
+280	Pop---Bubblegum	Pop	0.004095276131246978	1	6
+4	Blues---Electric Blues	Blues	0.0020248324381246584	2	6
+311	Rock---Atmospheric Black Metal	Rock	0.0023007527926655735	1	6
+346	Rock---Industrial	Rock	0.0031954565242184006	1	6
+123	Electronic---Speed Garage	Electronic	0.001790838279313799	0	6
 174	Funk / Soul---Psychedelic	Funk / Soul	0.002308234342182945	0	6
-218	Jazz---Gypsy Jazz	Jazz	0.0021862543074088144	2	6
-73	Electronic---Gabber	Electronic	0.0019467756335421692	0	6
-263	Latin---Tejano	Latin	0.0012677738228616337	2	6
-227	Jazz---Soul-Jazz	Jazz	0.0030367871722631595	1	6
-179	Hip Hop---Bass Music	Hip Hop	0.0025460437359743717	3	6
+161	Folk, World, & Country---Volksmusik	Folk, World, & Country	0.0016713238031845566	0	6
+396	Stage & Screen---Musical	Stage & Screen	0.004260801649616326	2	6
+395	Rock---Yé-Yé	Rock	0.001254103082730953	2	6
+112	Electronic---New Wave	Electronic	0.0036296529121262844	0	6
+227	Jazz---Soul-Jazz	Jazz	0.003036787172270089	1	6
+179	Hip Hop---Bass Music	Hip Hop	0.002546043734508786	3	6
 95	Electronic---Italo House	Electronic	0.001730489741740262	1	6
 206	Jazz---Afrobeat	Jazz	0.002488300758857459	3	6
-346	Rock---Industrial	Rock	0.0031954565242184006	1	6
-8	Blues---Modern Electric Blues	Blues	0.0030316640607568166	2	5
-196	Hip Hop---Miami Bass	Hip Hop	0.0010008432805732983	0	5
-210	Jazz---Bossa Nova	Jazz	0.0026784700932932478	2	5
-324	Rock---Depressive Black Metal	Rock	0.0012164422744227466	0	5
-31	Electronic---Abstract	Electronic	0.00482085161439233	0	5
-330	Rock---Experimental	Rock	0.006158783627711666	0	5
-225	Jazz---Ragtime	Jazz	0.0012422407078990635	1	5
-3	Blues---Delta Blues	Blues	0.0016711290965099308	1	5
-113	Electronic---Noise	Electronic	0.0016602788239799058	0	5
-84	Electronic---Hard Techno	Electronic	0.0008359418915245376	0	5
-154	Folk, World, & Country---Nordic	Folk, World, & Country	0.002328260363565627	0	5
-239	Latin---Compas	Latin	0.0011210973756147883	2	5
-323	Rock---Deathrock	Rock	0.002114580288383575	1	5
-306	Rock---Acid Rock	Rock	0.0028098039103635806	0	5
-269	Non-Music---Field Recording	Non-Music	0.0020113956075259	3	5
-41	Electronic---Breakbeat	Electronic	0.003567815022648712	0	5
-254	Latin---Porro	Latin	0.0012812786647890158	2	5
-272	Non-Music---Poetry	Non-Music	0.001999582204959739	2	5
-43	Electronic---Breaks	Electronic	0.003005581876120948	0	5
-33	Electronic---Acid House	Electronic	0.001653679950803752	0	5
+218	Jazz---Gypsy Jazz	Jazz	0.0021862543074088144	2	6
+304	Reggae---Soca	Reggae	0.0016767318085411577	3	6
+294	Reggae---Calypso	Reggae	0.0013976443559994012	2	6
+330	Rock---Experimental	Rock	0.00615878362671382	0	5
+43	Electronic---Breaks	Electronic	0.0030055818751231027	0	5
 107	Electronic---Modern Classical	Electronic	0.0035051962914510013	0	5
-42	Electronic---Breakcore	Electronic	0.0018686063246337464	1	5
+154	Folk, World, & Country---Nordic	Folk, World, & Country	0.0023282603635641106	0	5
+113	Electronic---Noise	Electronic	0.0016602788239625822	0	5
+41	Electronic---Breakbeat	Electronic	0.003567815020708457	0	5
+42	Electronic---Breakcore	Electronic	0.0018686063246354787	1	5
+33	Electronic---Acid House	Electronic	0.001653679950817611	0	5
 39	Electronic---Big Beat	Electronic	0.0032669962443533534	3	5
-267	Non-Music---Dialogue	Non-Music	0.0018722657784351956	2	5
-282	Pop---City Pop	Pop	0.0018959969188018816	3	5
-320	Rock---Crust	Rock	0.0013921676633951601	0	4
-216	Jazz---Free Jazz	Jazz	0.001716145988478876	1	4
-6	Blues---Jump Blues	Blues	0.0012484551434873235	1	4
-7	Blues---Louisiana Blues	Blues	0.0010990518433817884	0	4
-221	Jazz---Jazz-Rock	Jazz	0.002818969136986161	1	4
-5	Blues---Harmonica Blues	Blues	0.0012002835330732421	1	4
-177	Funk / Soul---Swingbeat	Funk / Soul	0.0017303067290515629	0	4
-2	Blues---Country Blues	Blues	0.0017640812310969628	1	4
-165	Funk / Soul---Boogie	Funk / Soul	0.002038412299978372	1	4
+225	Jazz---Ragtime	Jazz	0.0012422407088691911	1	5
+239	Latin---Compas	Latin	0.0011210973756146801	2	5
+210	Jazz---Bossa Nova	Jazz	0.0026784700932932478	2	5
+306	Rock---Acid Rock	Rock	0.002809803910364447	0	5
+324	Rock---Depressive Black Metal	Rock	0.0012164422744231796	0	5
+323	Rock---Deathrock	Rock	0.0021145802883879056	1	5
+84	Electronic---Hard Techno	Electronic	0.0008359418915223721	0	5
+196	Hip Hop---Miami Bass	Hip Hop	0.001000843281062693	0	5
+272	Non-Music---Poetry	Non-Music	0.0019995822067336868	2	5
+267	Non-Music---Dialogue	Non-Music	0.0018722657624696657	2	5
+269	Non-Music---Field Recording	Non-Music	0.0020113956056410803	3	5
+254	Latin---Porro	Latin	0.0012812786647889076	2	5
+31	Electronic---Abstract	Electronic	0.004820851614364611	0	5
+282	Pop---City Pop	Pop	0.001895996918799283	3	5
+8	Blues---Modern Electric Blues	Blues	0.0030316640607568166	2	5
+3	Blues---Delta Blues	Blues	0.0016711290965099308	1	5
+5	Blues---Harmonica Blues	Blues	0.0012002835325864458	1	4
+6	Blues---Jump Blues	Blues	0.00124845514348754	1	4
+7	Blues---Louisiana Blues	Blues	0.0010990518433816835	0	4
 65	Electronic---Electroclash	Electronic	0.0017261224233396627	0	4
-253	Latin---Pachanga	Latin	0.0009683777027313457	1	4
-144	Folk, World, & Country---Fado	Folk, World, & Country	0.0020082628694691263	4	4
-155	Folk, World, & Country---Pacific	Folk, World, & Country	0.0017783454986700599	1	4
-186	Hip Hop---Cut-up/DJ	Hip Hop	0.0018163297297668318	0	4
-131	Electronic---Tribal	Electronic	0.0027470640810182455	0	4
-75	Electronic---Ghetto	Electronic	0.0015483868212278408	0	4
-34	Electronic---Acid Jazz	Electronic	0.002769308940465454	2	4
-232	Latin---Batucada	Latin	0.0009802511037075286	0	4
-92	Electronic---IDM	Electronic	0.0031843551239514106	0	4
-90	Electronic---Hip-House	Electronic	0.0024606907738248334	0	4
-120	Electronic---Rhythmic Noise	Electronic	0.0012370476193380529	0	4
+2	Blues---Country Blues	Blues	0.001764081231097829	1	4
 228	Jazz---Space-Age	Jazz	0.001835257522675961	0	4
+253	Latin---Pachanga	Latin	0.0009683777027308044	1	4
+75	Electronic---Ghetto	Electronic	0.001548386820738446	0	4
+216	Jazz---Free Jazz	Jazz	0.001716145988478876	1	4
+90	Electronic---Hip-House	Electronic	0.0024606907738317627	0	4
+232	Latin---Batucada	Latin	0.0009802511037040637	0	4
+92	Electronic---IDM	Electronic	0.0031843551249310666	0	4
+155	Folk, World, & Country---Pacific	Folk, World, & Country	0.0017783454986709261	1	4
 37	Electronic---Beatdown	Electronic	0.002115313283340345	0	4
-340	Rock---Grindcore	Rock	0.00140082917470019	0	3
-389	Rock---Surf	Rock	0.002522661978041799	1	3
-386	Rock---Space Rock	Rock	0.004161230880471211	0	3
-362	Rock---Parody	Rock	0.004365313664561153	0	3
-393	Rock---Twist	Rock	0.0010377312791075486	1	3
-399	Stage & Screen---Theme	Stage & Screen	0.003588039137401517	0	3
-83	Electronic---Hard House	Electronic	0.0013405764992334742	0	3
-54	Electronic---Donk	Electronic	0.000857706286691679	1	3
-160	Folk, World, & Country---Séga	Folk, World, & Country	0.001098630138660451	1	3
-168	Funk / Soul---Free Funk	Funk / Soul	0.001262723748747605	0	3
-115	Electronic---Power Electronics	Electronic	0.0010480744661355138	0	3
-182	Hip Hop---Britcore	Hip Hop	0.0010307180906399124	2	3
-109	Electronic---Neofolk	Electronic	0.0037249071724523362	0	3
-215	Jazz---Free Improvisation	Jazz	0.0019692165612528612	0	3
-333	Rock---Funeral Doom Metal	Rock	0.0009077506942928001	0	3
-234	Latin---Bolero	Latin	0.0019422578037318365	1	3
-103	Electronic---Leftfield	Electronic	0.0034329999458897922	1	3
-100	Electronic---Jumpstyle	Electronic	0.0017337153667454418	1	3
-237	Latin---Cha-Cha	Latin	0.0007516411956767273	0	3
-238	Latin---Charanga	Latin	0.0010982407637026275	0	3
-242	Latin---Descarga	Latin	0.0003972909417252691	0	3
-122	Electronic---Sound Collage	Electronic	0.0014315570298101545	0	3
-14	Brass & Military---Military	Brass & Military	0.0010966089247153408	0	3
+165	Funk / Soul---Boogie	Funk / Soul	0.002038412299978372	1	4
+131	Electronic---Tribal	Electronic	0.0027470640810199776	0	4
+144	Folk, World, & Country---Fado	Folk, World, & Country	0.0020082628694691263	4	4
+120	Electronic---Rhythmic Noise	Electronic	0.0012370476193380529	0	4
+34	Electronic---Acid Jazz	Electronic	0.0027693089404689187	2	4
+221	Jazz---Jazz-Rock	Jazz	0.002818969136986161	1	4
+177	Funk / Soul---Swingbeat	Funk / Soul	0.0017303067290515629	0	4
+320	Rock---Crust	Rock	0.0013921676629057654	0	4
+186	Hip Hop---Cut-up/DJ	Hip Hop	0.0018163297307369594	0	4
 290	Pop---Novelty	Pop	0.0028769275446336394	0	3
-32	Electronic---Acid	Electronic	0.0018316514264689434	0	3
-260	Latin---Son	Latin	0.0008825308414042393	1	3
-271	Non-Music---Monolog	Non-Music	0.0008201820660949391	0	3
-246	Latin---Guaracha	Latin	0.0005679060115290563	1	2
-347	Rock---Krautrock	Rock	0.0026754309500594963	0	2
-111	Electronic---New Beat	Electronic	0.0016853812221155312	0	2
-274	Non-Music---Promotional	Non-Music	0.0007304343612641285	0	2
-188	Hip Hop---Electro	Hip Hop	0.00265683670805779	0	2
-273	Non-Music---Political	Non-Music	0.0009476492771890902	1	2
-245	Latin---Guajira	Latin	0.00040402258651135394	1	2
-104	Electronic---Makina	Electronic	0.0007576148570011021	1	2
-270	Non-Music---Interview	Non-Music	0.0023849989695011913	0	2
+260	Latin---Son	Latin	0.0008825308414034273	1	3
+14	Brass & Military---Military	Brass & Military	0.0010966089256993273	0	3
+386	Rock---Space Rock	Rock	0.004161230881940261	0	3
+362	Rock---Parody	Rock	0.004365313664561153	0	3
+115	Electronic---Power Electronics	Electronic	0.0010480744656573794	0	3
+160	Folk, World, & Country---Séga	Folk, World, & Country	0.001098630138660451	1	3
+103	Electronic---Leftfield	Electronic	0.0034329999454463054	1	3
+399	Stage & Screen---Theme	Stage & Screen	0.003588039136902594	0	3
+168	Funk / Soul---Free Funk	Funk / Soul	0.001262723748747605	0	3
+32	Electronic---Acid	Electronic	0.0018316514264758727	0	3
+122	Electronic---Sound Collage	Electronic	0.0014315570278976171	0	3
+340	Rock---Grindcore	Rock	0.0014008291756807119	0	3
+182	Hip Hop---Britcore	Hip Hop	0.001030718091623899	2	3
+333	Rock---Funeral Doom Metal	Rock	0.0009077506942930167	0	3
+83	Electronic---Hard House	Electronic	0.0013405765002122638	0	3
+215	Jazz---Free Improvisation	Jazz	0.0019692165612528612	0	3
+271	Non-Music---Monolog	Non-Music	0.0008201820657900418	0	3
+242	Latin---Descarga	Latin	0.0003972909417253233	0	3
+54	Electronic---Donk	Electronic	0.0008577062866914625	1	3
+100	Electronic---Jumpstyle	Electronic	0.0017337153667415439	1	3
+109	Electronic---Neofolk	Electronic	0.0037249071724523362	0	3
+393	Rock---Twist	Rock	0.0010377312791077652	1	3
+389	Rock---Surf	Rock	0.002522661979514314	1	3
+237	Latin---Cha-Cha	Latin	0.000751641195675428	0	3
+238	Latin---Charanga	Latin	0.0010982407637026106	0	3
+234	Latin---Bolero	Latin	0.0019422578037301041	1	3
+273	Non-Music---Political	Non-Music	0.0009476492762189626	1	2
 268	Non-Music---Education	Non-Music	0.0005266551736741259	0	2
-261	Latin---Son Montuno	Latin	0.0003529339392211681	0	2
-93	Electronic---Illbient	Electronic	0.0014582401661486395	1	2
+270	Non-Music---Interview	Non-Music	0.0023849989695011913	0	2
+245	Latin---Guajira	Latin	0.00040402258651135394	1	2
+246	Latin---Guaracha	Latin	0.0005679060105502668	1	2
+261	Latin---Son Montuno	Latin	0.0003529339392211952	0	2
+274	Non-Music---Promotional	Non-Music	0.000730434361257199	0	2
+248	Latin---Mambo	Latin	0.0009113326640249662	0	2
+76	Electronic---Ghetto House	Electronic	0.0009214416145434954	0	2
+188	Hip Hop---Electro	Hip Hop	0.00265683670805779	0	2
+93	Electronic---Illbient	Electronic	0.0014582401641806662	1	2
+111	Electronic---New Beat	Electronic	0.0016853812221086016	0	2
+347	Rock---Krautrock	Rock	0.0026754309500594963	0	2
+104	Electronic---Makina	Electronic	0.0007576148569998028	1	2
 141	Folk, World, & Country---Catalan Music	Folk, World, & Country	0.0011340262243464847	2	2
-358	Rock---Noise	Rock	0.0017412869054965795	0	2
-76	Electronic---Ghetto House	Electronic	0.0009214416145426292	0	2
-248	Latin---Mambo	Latin	0.0009113326640245332	0	2
-108	Electronic---Musique Concrète	Electronic	0.0012519087418752758	0	1
-40	Electronic---Bleep	Electronic	0.000374671451927226	0	1
-121	Electronic---Schranz	Electronic	0.0007081588037238357	0	1
-9	Blues---Piano Blues	Blues	0.001308947152960496	1	1
-337	Rock---Goregrind	Rock	0.00023841812319430367	0	1
-0	Blues---Boogie Woogie	Blues	0.0005845915195343466	0	1
-235	Latin---Boogaloo	Latin	0.0007131347381087814	0	1
-178	Funk / Soul---UK Street Soul	Funk / Soul	0.0004071181937982596	0	1
-289	Pop---Music Hall	Pop	0.0016663933711183665	0	1
-231	Latin---Baião	Latin	0.00035779570296391077	0	1
-349	Rock---Lounge	Rock	0.00311281004660906	0	1
-365	Rock---Pornogrind	Rock	0.00017745930660997624	0	1
-149	Folk, World, & Country---Hillbilly	Folk, World, & Country	0.00045580203199492185	0	1
-240	Latin---Cubano	Latin	0.0013793557646817679	1	1
+358	Rock---Noise	Rock	0.0017412869055242973	0	2
 244	Latin---Guaguancó	Latin	0.00039979615203509453	0	1
-357	Rock---No Wave	Rock	0.0013729414534007364	0	0
+0	Blues---Boogie Woogie	Blues	0.0005845915195342383	0	1
+289	Pop---Music Hall	Pop	0.001666393371134824	0	1
+9	Blues---Piano Blues	Blues	0.0013089471529609293	1	1
+231	Latin---Baião	Latin	0.0003577957029636942	0	1
+235	Latin---Boogaloo	Latin	0.0007131347386025071	0	1
+240	Latin---Cubano	Latin	0.0013793557646796025	1	1
+108	Electronic---Musique Concrète	Electronic	0.0012519087427622496	0	1
+178	Funk / Soul---UK Street Soul	Funk / Soul	0.0004071181937990175	0	1
+365	Rock---Pornogrind	Rock	0.0001774593066065115	0	1
+149	Folk, World, & Country---Hillbilly	Folk, World, & Country	0.0004558020319956527	0	1
+40	Electronic---Bleep	Electronic	0.0003746714519267929	0	1
+121	Electronic---Schranz	Electronic	0.0007081588037233485	0	1
+337	Rock---Goregrind	Rock	0.00023841812319603603	0	1
+349	Rock---Lounge	Rock	0.00311281004660906	0	1
+372	Rock---Power Violence	Rock	0.0002886723630561593	0	0
+233	Latin---Beguine	Latin	0.00032397635402950885	0	0
+173	Funk / Soul---P.Funk	Funk / Soul	0.0012378878189750714	0	0
+187	Hip Hop---DJ Battle Tool	Hip Hop	0.0010352790742314936	0	0
 312	Rock---Avantgarde	Rock	0.0021170653361678687	0	0
 310	Rock---Art Rock	Rock	0.004796800142596707	0	0
-139	Folk, World, & Country---Cajun	Folk, World, & Country	0.0007275227083696106	0	0
-359	Rock---Noisecore	Rock	0.0003169550918849968	0	0
-233	Latin---Beguine	Latin	0.00032397635402950885	0	0
-372	Rock---Power Violence	Rock	0.0002886723620860316	0	0
-187	Hip Hop---DJ Battle Tool	Hip Hop	0.001035279073715247	0	0
-173	Funk / Soul---P.Funk	Funk / Soul	0.0012378878189750714	0	0
-230	Latin---Afro-Cuban	Latin	0.0011239160292640796	0	0
+230	Latin---Afro-Cuban	Latin	0.0011239160292636464	0	0
+139	Folk, World, & Country---Cajun	Folk, World, & Country	0.0007275227083691775	0	0
+357	Rock---No Wave	Rock	0.0013729414534007364	0	0
+359	Rock---Noisecore	Rock	0.00031695509090447487	0	0

@@ -439,6 +439,7 @@ class Analyzer:
             "classifiers": {
                 "discogs400_style_activations_mean": effnet["style_mean"].tolist(),
                 "voice_instrumental_mean": voice_pred,
+                # 2-way softmax; downstream tools (playlists + notebooks) use index 0 as the danceability score.
                 "danceability_mean": dance_pred,
             },
         }

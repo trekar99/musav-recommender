@@ -1,11 +1,16 @@
+# --- Offline analyzer (Essentia + CLAP) ---
 essentia-tensorflow
-tqdm
 laion-clap
 torch
 torchvision
+numpy
+tqdm
+
+# --- Streamlit (collection_playlists / Playlist Studio) ---
+streamlit>=1.29.0
 pandas
+
+# --- Notebooks & plots (optional) ---
 matplotlib
 seaborn
 ipykernel
-streamlit>=1.29.0
-numpy
