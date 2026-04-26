@@ -3,3 +3,7 @@ tqdm
 laion-clap
 torch
 torchvision
+pandas
+matplotlib
+seaborn
+ipykernel

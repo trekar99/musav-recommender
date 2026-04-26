@@ -157,48 +157,6 @@ def _preflight_essentia_tf_support(es: Any) -> None:
     )
 
 
-def _instantiate_tf_predictor(
-    ctor: Any,
-    graph_filename: Path,
-    purpose: str,
-    io_candidates: Sequence[Tuple[str, str]],
-    prefer_default_first: bool = False,
-) -> Any:
-    """Instantiate a TensorFlow predictor, trying multiple input/output node names."""
-    attempts: List[str] = []
-
-    if prefer_default_first:
-        try:
-            return ctor(graphFilename=str(graph_filename))
-        except Exception as exc:
-            attempts.append(f"default nodes failed: {exc}")
-
-    # Try known node-name pairs.
-    for input_node, output_node in io_candidates:
-        try:
-            return ctor(
-                graphFilename=str(graph_filename),
-                input=input_node,
-                output=output_node,
-            )
-        except Exception as exc:
-            attempts.append(f"{input_node} -> {output_node} failed: {exc}")
-
-    if not prefer_default_first:
-        # Last fallback: constructor defaults.
-        try:
-            return ctor(graphFilename=str(graph_filename))
-        except Exception as exc:
-            attempts.append(f"default nodes failed: {exc}")
-
-    details = "\n  - ".join(attempts[-6:])
-    raise RuntimeError(
-        f"Could not configure TF predictor for {purpose} with graph `{graph_filename}`.\n"
-        f"Tried default nodes and fallback node pairs.\n"
-        f"Recent errors:\n  - {details}"
-    )
-
-
 def _build_effnet_embedder_with_dim_check(
     ctor: Any,
     graph_filename: Path,
@@ -415,10 +373,11 @@ class Analyzer:
         else:
             stereo_48k = stereo
 
-        # LoudnessEBUR128 returns several values (momentary/short-term/integrated).
+        # LoudnessEBUR128 returns (momentary, short-term, integrated, loudness_range, ...).
+        # Integrated loudness (LUFS) is index 2; index -1 is loudness range, not integrated.
         result = self.models.loudness_ebur128(stereo_48k)
-        if isinstance(result, (list, tuple)) and len(result) > 0:
-            return as_float(result[-1])  # integrated LUFS is typically last
+        if isinstance(result, (list, tuple)) and len(result) >= 3:
+            return as_float(result[2])
         return as_float(result)
 
     def _compute_effnet_features(
@@ -514,18 +473,6 @@ def build_essentia_models(args: argparse.Namespace) -> EssentiaModels:
         purpose="2D classifier inference",
     )
 
-    # Common node-name fallbacks for TF2-exported models.
-    # Some builds of Essentia default to TF1 names (model/Placeholder), which fail
-    # for these MusAV models that expose serving_default_model_Placeholder.
-    classifier_io_candidates = (
-        ("model/Placeholder", "model/Softmax"),
-        ("model/Placeholder", "model/Sigmoid"),
-        ("serving_default_model_Placeholder", "PartitionedCall"),
-        ("serving_default_model_Placeholder", "StatefulPartitionedCall"),
-        ("serving_default_model_Placeholder", "StatefulPartitionedCall_1"),
-        ("model/Placeholder", "StatefulPartitionedCall"),
-        ("Placeholder", "Identity"),
-    )
     probe_audio_16k: Optional[np.ndarray] = None
     try:
         probe_loader = es.MonoLoader(filename=str(args.probe_audio_file), sampleRate=16000)
@@ -539,23 +486,18 @@ def build_essentia_models(args: argparse.Namespace) -> EssentiaModels:
         expected_dim=1280,
         probe_audio_16k=probe_audio_16k,
     )
-    genre_classifier = _instantiate_tf_predictor(
-        ctor=predict2d_ctor,
-        graph_filename=args.discogs400_model,
-        purpose="Discogs400 classifier",
-        io_candidates=classifier_io_candidates,
+    genre_classifier = predict2d_ctor(
+        graphFilename=str(args.discogs400_model),
+        input="serving_default_model_Placeholder",
+        output="PartitionedCall:0",
     )
-    voice_classifier = _instantiate_tf_predictor(
-        ctor=predict2d_ctor,
-        graph_filename=args.voice_model,
-        purpose="voice/instrumental classifier",
-        io_candidates=classifier_io_candidates,
+    voice_classifier = predict2d_ctor(
+        graphFilename=str(args.voice_model),
+        output="model/Softmax",
     )
-    dance_classifier = _instantiate_tf_predictor(
-        ctor=predict2d_ctor,
-        graph_filename=args.danceability_model,
-        purpose="danceability classifier",
-        io_candidates=classifier_io_candidates,
+    dance_classifier = predict2d_ctor(
+        graphFilename=str(args.danceability_model),
+        output="model/Softmax",
     )
 
     return EssentiaModels(
