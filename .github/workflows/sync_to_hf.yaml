@@ -1,0 +1,44 @@
+name: Sync to Hugging Face Hub
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Inject HF Space README metadata
+        run: |
+          METADATA="---
+          title: Playlist Studio
+          emoji: 🎧
+          colorFrom: purple
+          colorTo: blue
+          sdk: docker
+          pinned: false
+          app_port: 7860
+          short_description: Streamlit hub for descriptor playlists, similarity, and CLAP text search over your analyzed catalog.
+          ---"
+
+          mv README.md ORIGINAL_README.md
+          echo "$METADATA" > README.md
+          echo "" >> README.md
+          cat ORIGINAL_README.md >> README.md
+
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action Bot"
+          git add README.md
+          git commit -m "Inject Hugging Face Space metadata [skip ci]"
+
+      - name: Push to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        # We use --force because the histories will now be different
+        run: git push --force https://trekar99:$HF_TOKEN@huggingface.co/spaces/trekar99/playlist-studio main

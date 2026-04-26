@@ -10,6 +10,7 @@ Offline **analysis** for any folder of MP3s, plus a **collection-agnostic** Stre
 | `src/collection_playlists/` | **Playlist Studio**: Streamlit **domain** + **services** + **screens**, and **four** runnable apps under `apps/` (see below). |
 | `notebooks/music_collection_overview.ipynb` | Exploratory stats + plots; writes figures under `analysis/report/`. |
 | `generate_music_overview_figures.py` | Regenerates the same report PNGs + TSV from `analysis/descriptors.jsonl` without Jupyter (`python generate_music_overview_figures.py`). |
+| `requirements-spaces.txt` | Slim Python deps for the **Dockerfile** / Hugging Face Spaces (no Essentia analyzer). |
 
 ## Configuration (before `streamlit run`)
 
@@ -86,6 +87,22 @@ python src/analyze_collection.py \
 ```
 
 Suggested weight locations: `model_conf.sh`.
+
+## Hugging Face Spaces (Docker)
+
+The repo includes a **Dockerfile** that runs **Playlist Studio** (`main.py` → integrated Streamlit app) on port **7860**, matching HF Spaces. Python deps are in **`requirements-spaces.txt`** (Streamlit + CLAP stack only; no Essentia analyzer in the image).
+
+At build time the Dockerfile downloads **`genre_discogs400-discogs-effnet-1.json`** and **`music_speech_epoch_15_esc_89.25.pt`** into `models/` (they are normally gitignored). Your **`analysis/descriptors.jsonl`** must be in the Git context so the Space has a catalog to browse.
+
+GitHub Action **`.github/workflows/sync_to_hf.yaml`** pushes `main` to a Space after prepending YAML metadata to the README (runner-only commit). Configure repository **secrets**:
+
+| Secret | Example | Purpose |
+|--------|---------|---------|
+| `HF_TOKEN` | HF access token with write | Auth for `git push` |
+| `HF_USER` | your HF username | Same user that owns the Space |
+| `HF_SPACE_NAME` | `musav-recommender` | Repo name of the Space only (not the full URL) |
+
+Create an empty **Docker** Space on Hugging Face with that name, then push once manually or let the workflow run after secrets are set.
 
 ## Notes
 

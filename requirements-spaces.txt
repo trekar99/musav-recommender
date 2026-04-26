@@ -1,0 +1,9 @@
+# Runtime for Playlist Studio on Hugging Face Spaces (Docker).
+# Analyzer / Essentia / notebooks are omitted to keep the image buildable.
+
+streamlit>=1.29.0
+pandas
+numpy
+torch
+torchvision
+laion-clap
