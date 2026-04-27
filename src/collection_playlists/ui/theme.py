@@ -14,9 +14,9 @@ CSS = """
   section.main > div.block-container {
     padding-top: 5.25rem !important;
     padding-bottom: 3rem !important;
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-    max-width: 920px !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    max-width: 1100px !important;
   }
 
   [data-testid="stHeader"] {
@@ -90,7 +90,7 @@ CSS = """
     font-size: 0.9rem;
     line-height: 1.55;
     color: #a3a3a3;
-    max-width: 40rem;
+    max-width: 100%;
   }
 
   div.cp-muted {
@@ -176,37 +176,6 @@ CSS = """
     margin-top: 0.35rem !important;
     height: 36px !important;
     border-radius: 6px !important;
-  }
-
-  /* Text encoder loader (indeterminate) */
-  div.cp-load-panel {
-    padding: 1rem 1.1rem;
-    margin-bottom: 1rem;
-    background: #0f0f0f;
-    border: 1px solid #252525;
-    border-radius: 8px;
-  }
-  div.cp-load-panel p {
-    margin: 0 0 0.65rem 0;
-    font-size: 0.82rem;
-    color: #a3a3a3;
-  }
-  div.cp-indeterminate {
-    height: 3px;
-    background: #1f1f1f;
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  div.cp-indeterminate > div {
-    height: 100%;
-    width: 35%;
-    background: #e5e5e5;
-    border-radius: 2px;
-    animation: cp-sweep 1.1s ease-in-out infinite;
-  }
-  @keyframes cp-sweep {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(320%); }
   }
 </style>
 """

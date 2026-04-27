@@ -3,7 +3,7 @@ from __future__ import annotations
 import streamlit as st
 
 BRAND_TITLE = "Playlist Studio"
-BRAND_SUB = "Descriptors · similarity · text search"
+BRAND_SUB = "Filter · neighbours · describe-to-search"
 
 
 def render_top_nav() -> None:

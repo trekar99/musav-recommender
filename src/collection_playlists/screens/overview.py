@@ -9,51 +9,64 @@ def render_overview() -> None:
     desc_path = st.session_state.cfg_descriptors_path
     line_estimate = count_jsonl_lines(desc_path)
 
+    st.markdown("# Playlist Studio")
     st.markdown(
-        """
-<div class="cp-hero">
-  <h1>Playlist Studio</h1>
-  <p class="lead">
-    One JSONL catalog: filter by musical attributes, find similar tracks, or search by description.
-    Data paths come from the environment before startup.
-  </p>
-</div>
-        """,
-        unsafe_allow_html=True,
+        "**Build playlists from analysis in seconds.** Filter your catalog, find nearest neighbours, "
+        "or search by text—without re-running audio encoding."
     )
 
-    if line_estimate:
-        st.markdown(
-            f'<div class="cp-muted">{line_estimate:,} lines in descriptors file (quick count).</div>',
-            unsafe_allow_html=True,
-        )
-    else:
-        st.warning(
-            "Descriptors file missing or empty. Set **COLLECTION_PLAYLISTS_DESCRIPTORS_JSONL** "
-            "or keep the default `analysis/descriptors.jsonl` layout."
-        )
+    main, side = st.columns((2.35, 1.0), gap="large")
 
+    with main:
+        with st.container(border=True):
+            st.markdown("##### What this app does")
+            st.markdown(
+                "- **Descriptors:** Filter by tempo, voice/dance, key, and Discogs400 styles; preview and export **M3U8**.\n"
+                "- **Similarity:** Pick one track and find nearest neighbours in **EffNet** or **CLAP** space.\n"
+                "- **Text:** Describe a sound in plain English and rank tracks by CLAP match."
+            )
+            st.caption(
+                "Uses one JSONL catalog with precomputed descriptors and vectors. "
+                "The Text encoder loads in the background."
+            )
+
+    with side:
+        with st.container(border=True):
+            st.markdown("##### Your catalog")
+            if line_estimate:
+                st.metric("Tracks in catalog (approx.)", f"{line_estimate:,}")
+                st.caption("Line count for your configured descriptors file.")
+            else:
+                st.warning("Add a descriptors JSONL to get started.")
+            st.markdown("##### Configuration")
+            st.caption(
+                "Point Streamlit at your data with `COLLECTION_PLAYLISTS_*` env vars (or use the repo defaults). "
+                "Full setup: **README**."
+            )
+
+    st.divider()
+    st.markdown("##### Jump in")
     c1, c2, c3 = st.columns(3, gap="medium")
     with c1:
         with st.container(border=True):
             st.markdown("**Descriptors**")
-            st.caption("Tempo, voice, dance, key, Discogs400 styles; M3U8 export.")
-            if st.button("Open", key="home_open_desc", use_container_width=True):
+            st.caption("Shape a playlist with filters, then export.")
+            if st.button("Open Descriptors", key="home_open_desc", use_container_width=True):
                 st.session_state.active_view = "descriptors"
                 st.rerun()
 
     with c2:
         with st.container(border=True):
             st.markdown("**Similarity**")
-            st.caption("Effnet vs CLAP neighbours for one track ID.")
-            if st.button("Open", key="home_open_sim", use_container_width=True):
+            st.caption("Explore “more like this” from any track.")
+            if st.button("Open Similarity", key="home_open_sim", use_container_width=True):
                 st.session_state.active_view = "similarity"
                 st.rerun()
 
     with c3:
         with st.container(border=True):
             st.markdown("**Text**")
-            st.caption("CLAP text vs stored `clap_mean` vectors.")
-            if st.button("Open", key="home_open_txt", use_container_width=True):
+            st.caption("Search by mood or description in plain English.")
+            if st.button("Open Text", key="home_open_txt", use_container_width=True):
                 st.session_state.active_view = "text"
                 st.rerun()

@@ -8,8 +8,11 @@ import streamlit as st
 from collection_playlists.config.paths import default_clap_checkpoint
 
 
-@st.cache_resource(show_spinner=False)
-def get_clap_module(clap_ckpt_path: str):
+def load_clap_module_from_disk(clap_ckpt_path: str):
+    """
+    Load CLAP weights from disk (heavy I/O). Safe to call from a **background thread**;
+    does not touch Streamlit session state or ``@st.cache_resource``.
+    """
     import laion_clap  # type: ignore
 
     ckpt = Path(clap_ckpt_path)
@@ -23,6 +26,12 @@ def get_clap_module(clap_ckpt_path: str):
     model = laion_clap.CLAP_Module(enable_fusion=False, amodel="HTSAT-base")
     model.load_ckpt(ckpt=str(ckpt))
     return model
+
+
+@st.cache_resource(show_spinner=False)
+def get_clap_module(clap_ckpt_path: str):
+    """Same weights as ``load_clap_module_from_disk``, cached for the main Streamlit thread."""
+    return load_clap_module_from_disk(clap_ckpt_path)
 
 
 def embed_text_query(model, text: str) -> np.ndarray:

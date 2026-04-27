@@ -28,5 +28,7 @@ st.set_page_config(
 
 inject_theme()
 init_session_defaults()
-st.caption("Text search loads its encoder once; progress appears only in this view.")
+st.caption(
+    "CLAP loads in a background thread. Use **Check load status** or reload this page after the `.pt` has finished reading from disk."
+)
 render_text_search_screen()
